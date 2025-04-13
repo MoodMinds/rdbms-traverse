@@ -2,7 +2,7 @@
 
 This implementation of the [RDBMS](https://github.com/MoodMinds/rdbms) SPI supports synchronous execution traversal.
 It is built on the [Routes Traverse](https://github.com/MoodMinds/routes-traverse) and the JDBC API. This can be utilized
-as a client over JDBC, providing a more user-friendly API for database management.
+as a client over JDBC, providing a more user-friendly streaming API for database management.
 
 ## Examples
 
