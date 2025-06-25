@@ -18,14 +18,14 @@ import org.moodminds.route.Route5;
 import org.moodminds.route.Route6;
 import org.moodminds.route.Route7;
 import org.moodminds.route.Route8;
-import org.moodminds.route.traverse.TraversableEmittable;
+import org.moodminds.traverse.TraversableEmittable;
 import org.moodminds.traverse.Traversable;
 
 import static java.util.Objects.requireNonNull;
 
 /**
  * The materializing {@link Traversable} implementation of the {@link org.moodminds.rdbms.route.Routes}
- * interface backed by the JDBC SPI.
+ * interface backed by the JDBC API.
  */
 public class Routes implements org.moodminds.rdbms.route.Routes {
 
